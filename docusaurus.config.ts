@@ -96,8 +96,24 @@ const config: Config = {
 										title: 'Docs',
 										items: [
 												{
-														label: 'Tutorial',
-														to: '/docs/intro',
+														label: 'Overview',
+														to: '/overview/intro',
+												},
+												{
+														label: 'Scorecard',
+														to: '/scorecard/intro',
+												},
+												{
+														label: 'Bottleneck Analysis (BNA)',
+														to: '/bna/intro',
+												},
+												{
+														label: 'Action Tracker',
+														to: '/action-tracker/intro',
+												},
+												{
+														label: 'Standalone Action Tracker',
+														to: '/standalone-action-tracker/intro',
 												},
 										],
 								},
@@ -122,12 +138,8 @@ const config: Config = {
 										title: 'More',
 										items: [
 												{
-														label: 'Blog',
-														to: '/blog',
-												},
-												{
 														label: 'GitHub',
-														href: 'https://github.com/facebook/docusaurus',
+														href: 'https://github.com/hisptz/data-use-apps-docs',
 												},
 										],
 								},
