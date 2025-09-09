@@ -6,19 +6,17 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
 		title: 'Data Use Apps',
-		tagline: 'Dinosaurs are cool',
-		favicon: 'img/favicon.ico',
+		tagline: 'DHIS2 custom applications for data analysis and use',
+		favicon: 'img/hisptz-logo.png',
 		// Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
 		future: {
 				v4: true, // Improve compatibility with the upcoming Docusaurus v4
 		},
-
 		// Set the production url of your site here
 		url: 'https://hisptz.github.io',
 		// Set the /<baseUrl>/ pathname under which your site is served
 		// For GitHub pages deployment, it is often '/<projectName>/'
 		baseUrl: '/data-use-apps-docs/',
-
 		// GitHub pages deployment config.
 		// If you aren't using GitHub pages, you don't need these.
 		organizationName: 'hisptz', // Usually your GitHub org/user name.
@@ -32,7 +30,6 @@ const config: Config = {
 				defaultLocale: 'en',
 				locales: ['en'],
 		},
-
 		presets: [
 				[
 						'classic',
@@ -53,9 +50,13 @@ const config: Config = {
 
 		themeConfig: {
 				// Replace with your project's social card
-				image: 'img/docusaurus-social-card.jpg',
+				image: 'img/hisptz-logo.png',
 				navbar: {
 						title: 'Data Use Apps',
+						logo:{
+								alt: 'Data Use Apps Logo',
+								src: 'img/hisptz-logo.png',
+						},
 						items: [
 								{
 										type: 'docSidebar',
@@ -90,7 +91,7 @@ const config: Config = {
 						],
 				},
 				footer: {
-						style: 'dark',
+						style: 'light',
 						links: [
 								{
 										title: 'Docs',
@@ -121,16 +122,8 @@ const config: Config = {
 										title: 'Community',
 										items: [
 												{
-														label: 'Stack Overflow',
-														href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-												},
-												{
-														label: 'Discord',
-														href: 'https://discordapp.com/invite/docusaurus',
-												},
-												{
-														label: 'X',
-														href: 'https://x.com/docusaurus',
+														label: 'DHIS2 Community of Practice',
+														href: 'https://community.dhis2.org',
 												},
 										],
 								},
@@ -144,12 +137,16 @@ const config: Config = {
 										],
 								},
 						],
-						copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+						copyright: `Copyright © ${new Date().getFullYear()} HISP Tanzania, Inc. Built with Docusaurus.`,
 				},
 				prism: {
 						theme: prismThemes.github,
 						darkTheme: prismThemes.dracula,
 				},
+				colorMode: {
+						defaultMode: 'light',
+						respectPrefersColorScheme: true,
+				}
 		} satisfies Preset.ThemeConfig,
 };
 

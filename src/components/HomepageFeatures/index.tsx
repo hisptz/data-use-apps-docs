@@ -11,32 +11,38 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
 		{
-				title: 'Easy to Use',
+				title: 'Scorecard',
 				Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
 				description: (
 						<>
-								Docusaurus was designed from the ground up to be easily installed and
-								used to get your website up and running quickly.
+								The scorecard app is a performance monitoring tool that allows users to track the comparative performance of indicators over time and against different organization units and/or levels. With easy to use colour coded outputs, the scorecard is meant to allow users to make data-driven decisions using the performance outlined on via the scorecard app’s outputs.
 						</>
 				),
 		},
 		{
-				title: 'Focus on What Matters',
+				title: 'Bottleneck Analysis (BNA)',
 				Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
 				description: (
 						<>
-								Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-								ahead and move your docs into the <code>docs</code> directory.
+								Bottleneck analysis (BNA) is a structured analysis of the determinants of coverage for a wide range of interventions delivered through the health sector, useful to supporting targeted operational planning. It is a systematic, outcome-based approach to equitable health programming and real-time monitoring that strengthens the health system, complementing and building on what exists.
 						</>
 				),
 		},
 		{
-				title: 'Powered by React',
+				title: 'Action Tracker',
 				Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
 				description: (
 						<>
-								Extend or customize your website layout by reusing React. Docusaurus can
-								be extended while reusing the same header and footer.
+								The action tracker is a management tool that helps improve effective coverage of priority interventions at district and community level, covering various intervention such as maternal, newborn, and child health (MNCH), HIV, and nutrition.
+						</>
+				),
+		},
+		{
+				title: 'Standalone Action Tracker',
+				Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+				description: (
+						<>
+								The action tracker is a management tool that helps improve effective coverage of priority interventions at district and community level, covering various interventions such as maternal, newborn, and child health (MNCH), HIV, and nutrition.
 						</>
 				),
 		},
