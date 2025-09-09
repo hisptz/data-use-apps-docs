@@ -39,22 +39,11 @@ const config: Config = {
 						{
 								docs: {
 										sidebarPath: './sidebars.ts',
+										routeBasePath: '/'
 										// Please change this to your repo.
 										// Remove this to remove the "edit this page" links.
 								},
-								blog: {
-										showReadingTime: true,
-										feedOptions: {
-												type: ['rss', 'atom'],
-												xslt: true,
-										},
-										// Please change this to your repo.
-										// Remove this to remove the "edit this page" links.
-										// Useful options to enforce blogging best practices
-										onInlineTags: 'warn',
-										onInlineAuthors: 'warn',
-										onUntruncatedBlogPosts: 'warn',
-								},
+								blog: false,
 								theme: {
 										customCss: './src/css/custom.css',
 								},
@@ -70,15 +59,33 @@ const config: Config = {
 						items: [
 								{
 										type: 'docSidebar',
-										sidebarId: 'tutorialSidebar',
+										sidebarId: 'overviewSidebar',
 										position: 'left',
-										label: 'Tutorial',
+										label: 'Overview',
 								},
-								{to: '/blog', label: 'Blog', position: 'left'},
 								{
-										href: 'https://github.com/facebook/docusaurus',
-										label: 'GitHub',
-										position: 'right',
+										type: 'docSidebar',
+										sidebarId: 'scorecardSidebar',
+										position: 'left',
+										label: 'Scorecard',
+								},
+								{
+										type: 'docSidebar',
+										sidebarId: 'bnaSidebar',
+										position: 'left',
+										label: 'Bottleneck Analysis (BNA)',
+								},
+								{
+										type: 'docSidebar',
+										sidebarId: 'actionTrackerSidebar',
+										position: 'left',
+										label: 'Action Tracker',
+								},
+								{
+										type: 'docSidebar',
+										sidebarId: 'standaloneActionTrackerSidebar',
+										position: 'left',
+										label: 'Standalone Action Tracker',
 								},
 						],
 				},
