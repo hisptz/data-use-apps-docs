@@ -25,3 +25,10 @@
     --ifm-color-primary-lighter: #85d6f7;
     --ifm-color-primary-lightest: #afe7fb;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
