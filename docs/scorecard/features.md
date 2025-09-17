@@ -18,6 +18,8 @@ The Scorecard App includes the following features:
 
 ---
 
+
+
 ## Color-Coded Analysis
 - Default traffic-light coding:
   - **Red** → low performance (below target).

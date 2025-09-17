@@ -20,7 +20,7 @@ The Scorecard App is designed for a wide range of health system users, including
 The Scorecard App addresses a critical gap between data availability and data use. While DHIS2 provides robust data collection and storage, not all health managers or program staff have advanced analytical skills to generate meaningful insights. The Scorecard App bridges this gap by offering:
 - Simplified visualization of indicators through easy-to-read scorecards.
 - Automated analysis outputs that reduce the need for complex statistical knowledge.
-- Color coded results (**Green** = good, **Yellow** = caution, **Red** = underperforming) that immediately highlight areas requiring attention.
+- Color coded results (<span style={{ color: "#018000" }}>**Green**</span> = good, <span style={{ color: "#FFFF00" }}>**Yellow**</span> = caution, <span style={{ color: "#FF0000" }}>**Red**</span> = underperforming) that immediately highlight areas requiring attention.
 - Support for routine decision-making during review meetings at different levels of the health system.
 - Enhanced accountability and transparency, since performance data can be easily shared and interpreted across stakeholders.
 - Promotion of a data-use culture, ensuring data does not remain static but directly informs planning, monitoring, and corrective action.
@@ -36,7 +36,7 @@ The Scorecard App offers flexibility in how it can be deployed and accessed:
 ## Advantages of the Scorecard App
 The Scorecard App offers multiple benefits that strengthen performance management:
 - Quick visual insights: Provides immediate snapshots of performance across indicators without needing deep analysis.
-- Traffic-light color coding: Default colors (Red = poor performance, Yellow = average, Green = good performance) make it easy to spot strengths and weaknesses. Users can also customize colors to match program preferences.
+- Traffic-light color coding: Default colors (<span style={{ color: "#FF0000" }}>**Red**</span> = poor performance, <span style={{ color: "#FFFF00" }}>**Yellow**</span>  = average, <span style={{ color: "#018000" }}>**Green**</span> = good performance) make it easy to spot strengths and weaknesses. Users can also customize colors to match program preferences.
 - Trend observation: Allows users to monitor changes over time, helping detect improvements, stagnation, or declines.
 - Comparability: Facilitates benchmarking across facilities, districts, or regions to highlight best performers and lagging areas.
 - Action-oriented design: Directly links data to problem-solving, planning, and accountability mechanisms such as the Action Tracker App.

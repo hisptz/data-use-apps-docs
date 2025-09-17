@@ -32,9 +32,9 @@ This stage focuses on real-time visualization and analysis:
 The review phase embeds the scorecard into accountability and performance dialogue:
 - **Routine review meetings**: Present scorecards in monthly, quarterly, or annual meetings.
 - **Color coded** interpretation:
-  - **Green** = Performing well; maintain momentum.
-  - **Yellow** = Moderate concern; requires closer monitoring.
-  - **Red** = Underperforming; immediate action needed.
+  - <span style={{ color: "#018000" }}>**Green**</span> = Performing well; maintain momentum.
+  - <span style={{ color: "#FFFF00" }}>**Yellow**</span> = Moderate concern; requires closer monitoring.
+  - <span style={{ color: "#FF0000" }}>**Red**</span> = Underperforming; immediate action needed.
 - **Benchmarking**: Compare performance across districts, facilities, or regions to identify champions and lagging areas.
 - **Equity analysis**: Use disaggregation (gender, age, geography) to highlight inequities in service delivery.
 - **Collaborative problem-solving**: Facilitate discussions on root causes of underperformance.
