@@ -5,33 +5,27 @@ sidebar_position: 4
 
 # Installation
 
-## Installation & Setup
 
-The Scorecard App can be installed either from the **DHIS2 App Hub** or by manual upload.
+## Install from DHIS2 App Hub
 
----
 
-## Option 1: Install from DHIS2 App Hub
-1. Navigate to **Apps → App Management** in your DHIS2 instance.
-2. Click **Install App**.
-3. Search for *Interactive Scorecard App* in the App Hub.
-4. Select and install the latest version.
-5. Refresh your browser to confirm successful installation.
+## Manual Upload
 
----
 
-## Option 2: Manual Upload
-1. Download the `.zip` package from the official DHIS2 releases page or from your implementer.
-2. Go to **App Management → Upload App** in DHIS2.
-3. Choose the `.zip` file and upload it.
-4. Once uploaded, the app will appear in the **Apps menu**.
-5. Refresh your browser before first use.
-
----
-
-## Notes
-- If upgrading to a newer version:
-  - **Clear browser cache** to avoid conflicts with older cached files.
-  - Cached files may cause the app to fail to load or display outdated content.
-- Ensure your user role has **App Management** rights before attempting installation.
-- eacsure access about scorecard configs like access to scorecard more details under `adminstration sections`
+## Best Practices
+### Upgrading to a newer version
+- Always clear your browser cache to prevent conflicts between old cached files and the new version.
+- Failure to clear cache may cause the app to fail to load or display outdated content.
+### User permissions
+- Ensure your DHIS2 account has App Management authority to install or update apps.
+- Access to Scorecard application depends on user roles. Check under Users -> User Roles to grant or restrict access.
+### Version compatibility:
+- Verify that the Scorecard App version matches your DHIS2 instance version (e.g., v2.40+).
+- Using an incompatible app version may lead to errors or missing features.
+### Security considerations:
+- Always download apps from trusted sources (DHIS2 App Hub ***or*** official [GitHub Release Page](https://github.com/hisptz/scorecard-app/releases)).
+- Avoid installing unverified packages to reduce risks of instability.
+### Post-installation setup:
+- Configure scorecard domains, indicators, and thresholds in collaboration with program teams.
+- Save common configurations for reuse across review cycles.
+- Test access with different user roles (e.g., facility staff, district managers) to ensure proper visibility.

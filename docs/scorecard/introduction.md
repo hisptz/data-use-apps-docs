@@ -20,7 +20,7 @@ The Scorecard App is designed for a wide range of health system users, including
 The Scorecard App addresses a critical gap between data availability and data use. While DHIS2 provides robust data collection and storage, not all health managers or program staff have advanced analytical skills to generate meaningful insights. The Scorecard App bridges this gap by offering:
 - Simplified visualization of indicators through easy-to-read scorecards.
 - Automated analysis outputs that reduce the need for complex statistical knowledge.
-- Color-coded results (Green = good, Yellow = caution, Red = underperforming) that immediately highlight areas requiring attention.
+- Color coded results (**Green** = good, **Yellow** = caution, **Red** = underperforming) that immediately highlight areas requiring attention.
 - Support for routine decision-making during review meetings at different levels of the health system.
 - Enhanced accountability and transparency, since performance data can be easily shared and interpreted across stakeholders.
 - Promotion of a data-use culture, ensuring data does not remain static but directly informs planning, monitoring, and corrective action.
