@@ -4,11 +4,12 @@ sidebar_position: 4
 ---
 
 # Installation
-## Scorecard App Installation 
+
+
 The Scorecard App is an optional DHIS2 application that needs to be installed into your DHIS2 instance before it can be used. Installation is a one-time setup process that makes the app available to all authorized users within the system. There are two major way to install the scorecard into your DHIS2 instance including through the DHIS2 App Hub (recommended for most users) and manual upload of the application package.
 >  **Important requirement**: To install or manage applications, your DHIS2 user role must include the App Management authority. If you do not see the App Management option in your instance, it means you do not have sufficient permissions. In this case, contact your system administrator or DHIS2 implementer for assistance
 
-### Install from DHIS2 App Hub
+## Install from DHIS2 App Hub
 The DHIS2 App Hub is the official marketplace for DHIS2 apps, providing the latest stable and secure versions. Installing directly from the App Hub ensures compatibility with your DHIS2 version and makes it easier to update in the future. To install the scorecard application from DHIS2 App Hub, you can follow below steps:-
 1. Log in to your DHIS2 instance with an account that has App Management authority.
 2. Go to **Apps** → **App Management**.
@@ -30,7 +31,7 @@ The DHIS2 App Hub is the official marketplace for DHIS2 apps, providing the late
 > - If using a production server, consider testing the installation first in a staging environment.
 > - Administrators should periodically check the App Hub for updates and apply them as needed.
 
-### Manual Upload
+## Manual Upload
 This option is useful if your DHIS2 instance does not have internet access or if you have been provided a specific version of the app for your implementation but needs prior download of scorecard app packages. To install the socrecard application manually, you can follow below steps
 1. Download the Scorecard App .zip package from [DHIS2 App Hub](https://apps.dhis2.org/) ***or*** [GitHub Release Page](https://github.com/hisptz/scorecard-app/releases).
 2. Log in to your DHIS2 instance with an account that has App Management authority.
@@ -46,19 +47,19 @@ This option is useful if your DHIS2 instance does not have internet access or if
 ![Fig](/img/scorecard/scorecard-sample-img.png)
 
 ## Best Practices
-### Upgrading to a newer version
+## Upgrading to a newer version
 - Always clear your browser cache to prevent conflicts between old cached files and the new version.
 - Failure to clear cache may cause the app to fail to load or display outdated content.
-### User permissions
+## User permissions
 - Ensure your DHIS2 account has App Management authority to install or update apps.
 - Access to Scorecard application depends on user roles. Check under Users -> User Roles to grant or restrict access.
-### Version compatibility:
+## Version compatibility:
 - Verify that the Scorecard App version matches your DHIS2 instance version (e.g., v2.40+).
 - Using an incompatible app version may lead to errors or missing features.
-### Security considerations:
+## Security considerations:
 - Always download apps from trusted sources ([DHIS2 App Hub](https://apps.dhis2.org/) ***or*** [GitHub Release Page](https://github.com/hisptz/scorecard-app/releases)).
 - Avoid installing unverified packages to reduce risks of instability.
-### Post-installation setup:
+## Post-installation setup:
 - Configure scorecard domains, indicators, and thresholds in collaboration with program teams.
 - Save common configurations for reuse across review cycles.
 - Test access with different user roles (e.g., facility staff, district managers) to ensure proper visibility.
