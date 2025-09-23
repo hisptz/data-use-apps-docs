@@ -39,6 +39,7 @@ const FeatureList: FeatureItem[] = [
 				icon: "img/logos/standalone-action-tracker.png",
 				description: (
 						<>
+								The Standalone Action Tracker is a DHIS2 custom application designed to help teams plan, coordinate, and follow through on priority actions within DHIS2.
 						</>
 				),
 		},
