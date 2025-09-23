@@ -16,7 +16,8 @@ export default defineConfig([
 		},
 		{
 				ignores: [
-".docusaurus"
+".docusaurus",
+						"build"
 				]
 		},
 		tseslint.configs.recommended,
