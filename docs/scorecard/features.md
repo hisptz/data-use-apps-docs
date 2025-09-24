@@ -4,7 +4,7 @@ sidebar_position: 2
 # Features
 
 
-The Interactive Scorecard App is designed to simplify performance monitoring in DHIS2 by providing flexible visualization, custom groupings, interactive dashboards/analysis, and sharing options. Below is a detailed breakdown of its core features:
+The Scorecard App is designed to simplify performance monitoring in DHIS2 by providing flexible visualization, custom groupings, interactive dashboards/analysis, and sharing options. Below is a detailed breakdown of its core features:
 
 ## Intuitive Interactive Help
 The scorecard app comes with built-in, interactive help features to guide users on how to navigate on specific module.
