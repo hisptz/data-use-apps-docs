@@ -7,12 +7,13 @@ sidebar_position: 3
 
 There are two ways to install the Standalone Action Tracker in DHIS2:
 
-- From the DHIS2 App Hub (recommended)
-- Manually, by downloading the app package from GitHub Releases and installing it via the DHIS2 App Management app
+- [From the DHIS2 App Hub (recommended)](#option-1-install-from-the-dhis2-app-hub-recommended)
+- [Manually, by downloading the app package from GitHub Releases and installing it via the DHIS2 App Management app](#option-2-manual-installation-from-github-releases)
 
 ## Prerequisites
 
-- A running DHIS2 instance where you have permission to install apps (typically the System Settings/App Management role).
+- A running DHIS2 instance where you have permission to install apps (typically the System Settings/App Management
+  role).
 - Internet access from the DHIS2 server if installing directly from the App Hub.
 
 ## Option 1: Install from the DHIS2 App Hub (recommended)
@@ -22,12 +23,18 @@ This is the easiest and preferred method because you receive updates directly fr
 Steps:
 
 1. Log in to your DHIS2 instance as a user with app installation permissions.
+
 2. Open the App Management app (sometimes listed as "App Management" or found under the Apps menu).
+   ![App Hub installation](/img/standalone-action-tracker/app-management-open.png)
 3. Go to the App Hub tab within App Management.
+   ![App Hub installation](/img/standalone-action-tracker/app-hub-tab.png)
 4. In the search box, type: "Standalone Action Tracker" (publisher: HISP Tanzania).
+   ![App Hub installation](/img/standalone-action-tracker/app-hub-search.png)
 5. Select the Standalone Action Tracker app from the results.
-6. Click Install and follow the prompts. DHIS2 will download and install the latest compatible version from the App Hub.
+6. Click Install. DHIS2 will download and install the latest compatible version from the App Hub.
+   ![App Hub installation](/img/standalone-action-tracker/app-hub-page.png)
 7. Once installation completes, find the Standalone Action Tracker in your Apps menu.
+   ![App Hub installation](/img/standalone-action-tracker/app-menu.png)
 
 Notes:
 
@@ -43,19 +50,22 @@ Use this method when your DHIS2 server cannot access the App Hub, or when you wa
 
 Steps:
 
-1. Go to the app's GitHub Releases page and download the production build (a .zip file). Example repository location:
-   - https://github.com/hisptz/standalone-action-tracker/releases
+1. Go to the app's GitHub [Releases page](https://github.com/hisptz/action-tracker-standalone/latest) and download the
+   production zip file
+   ![Github download](/img/standalone-action-tracker/github-download.png)
 2. Log in to your DHIS2 instance with app installation permissions.
 3. Open the App Management app.
-4. Choose the Upload app (or Install app) option.
-5. Select the downloaded .zip file and upload it.
-6. After the upload completes, the app will appear in the list of installed apps.
-7. Open the app from the Apps menu to verify it loads correctly.
+   ![App Hub installation](/img/standalone-action-tracker/app-management-open.png)
+4. Choose the Manual install tab on the left side menu.
+   ![App Hub installation](/img/standalone-action-tracker/manual-install-tab-select.png)
+5. Click on `Upload an app to install` button and select the downloaded zip file.
+   ![App Hub installation](/img/standalone-action-tracker/manual-install-tab.png)
+6. Once installation completes, find the Standalone Action Tracker in your Apps menu.
+   ![App Hub installation](/img/standalone-action-tracker/app-menu.png)
 
 Notes:
 
 - If you need to upgrade, upload the newer .zip package; DHIS2 will replace the existing version.
-- If you encounter a signature or compatibility warning, ensure you selected a release that matches your DHIS2 version.
 - To remove the app, use the uninstall/delete option in App Management.
 
 ## After installation
