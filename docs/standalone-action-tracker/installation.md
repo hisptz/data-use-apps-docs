@@ -23,26 +23,21 @@ This is the easiest and preferred method because you receive updates directly fr
 Steps:
 
 1. Log in to your DHIS2 instance as a user with app installation permissions.
-
-2. Open the App Management app (sometimes listed as "App Management" or found under the Apps menu).
+2. Open the App Management app.
    ![App Hub installation](/img/standalone-action-tracker/app-management-open.png)
 3. Go to the App Hub tab within App Management.
    ![App Hub installation](/img/standalone-action-tracker/app-hub-tab.png)
-4. In the search box, type: "Standalone Action Tracker" (publisher: HISP Tanzania).
+4. In the search box, type: "Standalone Action Tracker."
    ![App Hub installation](/img/standalone-action-tracker/app-hub-search.png)
-5. Select the Standalone Action Tracker app from the results.
+5. Select the Standalone Action Tracker app from the results (publisher: HISP Tanzania).
 6. Click Install. DHIS2 will download and install the latest compatible version from the App Hub.
    ![App Hub installation](/img/standalone-action-tracker/app-hub-page.png)
-7. Once installation completes, find the Standalone Action Tracker in your Apps menu.
+7. Once the installation completes, refresh the page, and you will find the Standalone Action Tracker in your Apps menu.
    ![App Hub installation](/img/standalone-action-tracker/app-menu.png)
 
-Notes:
-
-- You may need to refresh the browser or clear cache the first time after installation.
-- Ensure your DHIS2 version is compatible with the app version shown on the App Hub listing.
-- If your DHIS2 instance does not have internet access, use the manual method below.
-
-Helpful link: https://apps.dhis2.org/
+:::note
+You need to refresh the browser after installation to see the app in the Apps menu.
+:::
 
 ## Option 2: Manual installation (from GitHub Releases)
 
