@@ -102,7 +102,7 @@ const config: Config = {
 												},
 												{
 														label: 'Scorecard',
-														to: '/scorecard/intro',
+														to: '/scorecard/introduction',
 												},
 												{
 														label: 'Bottleneck Analysis (BNA)',
