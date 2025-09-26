@@ -35,6 +35,8 @@ Why it helps:
 - Quickly spot gaps, overlaps, or overloaded workstreams.
 - Produce summaries that match how your teams report.
 
+![categorization](/img/standalone-action-tracker/standalone-categorization.png)
+
 ## Customize labels and workflow
 
 Adapt the app to your local terminology and process so users feel at home:
@@ -48,6 +50,7 @@ Benefits:
 - Faster onboarding and less confusion for users with established terms.
 - Consistent status language across teams and meetings.
 
+![customization](/img/standalone-action-tracker/action-customization.png)
 ## Plan actions clearly
 
 Create actionable, time‑bound plans:
@@ -60,6 +63,8 @@ Outcomes:
 
 - Better prepared implementation plans and easier follow‑through.
 - Shared understanding of what “done” looks like.
+
+![planning](/img/standalone-action-tracker/planning.png)
 
 [//]: # (## Assign ownership and collaborate)
 
@@ -80,6 +85,8 @@ Keep everyone aligned as work advances:
 - Update status as work progresses and capture narrative updates, blockers, and next steps.
 - Link to evidence (documents, files) to support verification.
 - Review the history of changes to see how an action evolved.
+
+![tracking](/img/standalone-action-tracker/tracking.png)
 
 ## Report, filter, and export
 
