@@ -12,6 +12,8 @@ The scorecard app comes with built-in, interactive help features to guide users 
  - **How it works**: Users can click on **help icons** for detailed instructions as result reducing the need for external manuals.
  - **Why it matters**: Ensures that even new users can navigate and configure the scorecard independently, reducing training needs.
 
+![interactive help in action](/img/scorecard/interactive-help-in-action.png)
+
 ## Reusability Metadata from DHIS2 instance
 The Scorecard App is built on DHIS2’s existing metadata like indicators, data elements and others, which means it integrates seamlessly with the Maintenance App.
  - **What it does**: Automatically pulls data from DHIS2 indicators, data elements and other metadata already defined in the DHIS2 instance.
