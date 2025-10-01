@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 
 # Scorecard In Dashboard
-The Scorecard in Dashboard feature allows users to embed scorecards directly into dashboards for easy visualization and monitoring. This ensures that key metrics are displayed in a centralized, interactive, and customizable format tailored to programmatic or organizational needs.
+The Scorecard in Dashboard feature allows users to embed scorecards directly into dashboards for easy visualization and monitoring. This ensures that key metrics are displayed in a centralized, interactive, and customizable format tailored to programmatic or organisational needs.
 
 ## Prerequisites
 Before adding a scorecard to a dashboard, ensure the following requirements are met:

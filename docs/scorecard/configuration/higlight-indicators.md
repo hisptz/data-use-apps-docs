@@ -15,7 +15,7 @@ To add new highlighted indicator, below are steps to follow:-
 3. Once selected, the indicator will appear as a highlighted metric within the scorecard, drawing attention to its performance if option to view highlighted has been enabled.
 
 ## Managing Highlighted Indicators
-Over time, program priorities may change, and highlighted indicators may need to be updated, refined, or removed. The scorecard provides flexible options for managing highlighted indicators to ensure they remain accurate and aligned with evolving goals. This flexibility ensures that highlighted indicators remain relevant, actionable, and aligned with organizational priorities
+Over time, program priorities may change, and highlighted indicators may need to be updated, refined, or removed. The scorecard provides flexible options for managing highlighted indicators to ensure they remain accurate and aligned with evolving goals. This flexibility ensures that highlighted indicators remain relevant, actionable, and aligned with organisational priorities
 
 Options for managing highlighted indicators include:-
  - **Deleting** highlighted indicators that are no longer relevant or needed.
