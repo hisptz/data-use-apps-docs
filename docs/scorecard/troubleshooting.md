@@ -45,3 +45,14 @@ Common issues and solutions when using the Scorecard App:
   - Refresh app or browser (CTRL + R).
   - Check system logs using “View Logs”.
   - If persistent, report to DHIS2 administrator.
+
+## Error Management
+- **Access denied error**:
+  - Occurs when a user lacks permission.
+  - Fix by updating sharing settings.
+- **Scorecard not found**:
+  - Happens when a wrong ID is used in the URL.
+  - Verify by selecting the scorecard directly from the app menu.
+- **General errors**:
+  - Often caused by network issues.
+  - Refresh the page or clear the browser cache.
