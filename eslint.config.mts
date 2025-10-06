@@ -7,6 +7,7 @@ import markdown from "@eslint/markdown";
 import css from "@eslint/css";
 import {defineConfig} from "eslint/config";
 
+
 export default defineConfig([
 		{
 				files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
@@ -16,12 +17,16 @@ export default defineConfig([
 		},
 		{
 				ignores: [
-".docusaurus"
+".docusaurus",
+						"build"
 				]
 		},
 		tseslint.configs.recommended,
 		eslintConfigPrettier,
-		{files: ["**/*.json"], plugins: {json}, language: "json/json", extends: ["json/recommended"]},
+		//@ts-expect-error typescript issues
+		{files: ["**/*.json"], plugins: {json} , language: "json/json", extends: ["json/recommended"]},
+		//@ts-expect-error typescript issues
 		{files: ["**/*.md"], plugins: {markdown}, language: "markdown/commonmark", extends: ["markdown/recommended"]},
+		//@ts-expect-error typescript issues
 		{files: ["**/*.css"], plugins: {css}, language: "css/css", extends: ["css/recommended"]},
 ]);
