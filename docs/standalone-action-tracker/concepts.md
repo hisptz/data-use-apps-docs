@@ -44,18 +44,3 @@ date and status that allow the user to view and analyze the actions.
 - **End date**: The end date of an action is the date when the action was ended.
 - **Status**: The status of an action with values which are configurable by the user.
 
-[//]: # ()
-[//]: # (## Planning)
-
-[//]: # ()
-[//]: # (Planning refers to the process of managing the categories and their respective actions. It is done in the Action)
-
-[//]: # (planning tab.)
-
-[//]: # ()
-[//]: # (## Tracking)
-
-[//]: # ()
-[//]: # (Tracking refers to the process of updating the status of the actions. It is done in the Action tracking tab.)
-
-[//]: # ()
