@@ -66,18 +66,63 @@ like to select and click on 'Select'
 
 ![organisation unit selection](/img/standalone-action-tracker/default-org-unit-select.png)
 
-
 ## Period
 
 ### Planning Period
 
-### Tracking Period (Frequency)
+Planning period refers to the period that the application will allow actions and their categories to be created. This
+signifies the total period an action will be expected to take. Depending on the use case, planning can be done on a
+yearly, quarterly, or monthly basis.
+
+To set the planning period, click on the 'Planning frequency' dropdown field and select the period you would like to
+use.
+
+![planning-period](/img/standalone-action-tracker/planning-period-setup.png)
+
+### Tracking Period (Tracking Frequency)
+
+Tracking period refers to the period that the application will allow actions to be tracked. This signifies how often the
+action status needs to be updated in the application. Depending on the use case, tracking can be done on a yearly,
+quarterly, or monthly basis.
+
+To set the tracking period, click on the 'Tracking frequency' dropdown field and select the period you would like to
+use.
+
+![planning-period](/img/standalone-action-tracker/tracking-period-setup.png)
+
+:::info
+The tracking period should always be less or equal to the planning period
+:::
 
 ### Default Period
 
+The default period allows you to set a pre-selected planning period which will be automatically selected when the
+application
+is opened.
+
+![planning-period](/img/standalone-action-tracker/default-period-setup.png)
+
 ## Access and Sharing
+
+The Standalone Action Tracker application is designed to work with DHIS2's access and sharing. This section allows you
+to define who has access to the application based on DHIS2 users, and user groups.
+
+To configure access and sharing, click on the 'Access and sharing' button. A popup will appear with the list of
+users and user groups. You can update the existing users and user groups, or add new users and user groups.
+
+![planning-period](/img/standalone-action-tracker/sharing-settings.png)
 
 ## Delete Configuration
 
+You can use the 'Delete Configuration' button to delete the configuration. You will need to delete all existing data
+before you can perform this action.
 
+![planning-period](/img/standalone-action-tracker/delete-configuration.png)
 
+:::info
+You will need to delete all data related to this configuration before deleting 
+:::
+
+:::warning
+Deleting the configuration will delete all metadata tied to this configuration. This action cannot be undone.
+:::
