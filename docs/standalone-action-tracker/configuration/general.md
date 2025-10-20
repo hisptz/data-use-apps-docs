@@ -117,11 +117,14 @@ users and user groups. You can update the existing users and user groups, or add
 You can use the 'Delete Configuration' button to delete the configuration. You will need to delete all existing data
 before you can perform this action.
 
+:::info
+You will need to delete all data related to this configuration before deleting
+:::
+
+Click on the 'Delete Configuration' button, then confirm the action by clicking on the 'Delete' button.
+
 ![planning-period](/img/standalone-action-tracker/delete-configuration.png)
 
-:::info
-You will need to delete all data related to this configuration before deleting 
-:::
 
 :::warning
 Deleting the configuration will delete all metadata tied to this configuration. This action cannot be undone.
