@@ -105,3 +105,6 @@ You can configure the following fields for an action status option:
 ## Next Steps
 
 Click on `Save changes` button to save the changes.
+
+Congratulations! You have completed the configuration of the standalone action tracker. Head over to
+the [planning](../planning) section
