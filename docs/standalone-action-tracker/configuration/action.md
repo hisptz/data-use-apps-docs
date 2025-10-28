@@ -1,6 +1,6 @@
 ---
-title: Categories Configuration
-sidebar_position: 4
+title: Action Configuration
+sidebar_position: 5
 ---
 
-# Categories Configuration
+# Action Configuration
