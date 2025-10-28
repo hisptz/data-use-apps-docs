@@ -8,7 +8,7 @@ sidebar_position: 5
 ## Overview
 
 The action section allows you to configure action and action status metadata. You can learn about this
-concepts [here](../concepts.md#actions)
+concept [here](../concepts.md#actions)
 
 ## Action Planning
 
