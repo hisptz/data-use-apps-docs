@@ -129,3 +129,8 @@ Click on the 'Delete Configuration' button, then confirm the action by clicking 
 :::warning
 Deleting the configuration will delete all metadata tied to this configuration. This action cannot be undone.
 :::
+
+
+## Next Steps
+
+Click on `Save changes` button to save the changes. You can also continue to [categories](category.md) configuration.

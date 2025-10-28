@@ -101,3 +101,7 @@ You can configure the following fields for an action status option:
 | Code  | The code of the option, this is a unique value to be stored in the database |
 | Color | The color of the option in the action status column                         |
 | Icon  | The icon of the option displayed in the latest action status column         |
+
+## Next Steps
+
+Click on `Save changes` button to save the changes.

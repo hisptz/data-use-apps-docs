@@ -76,5 +76,8 @@ You can configure the following fields for a category field:
 
 You can add as many fields as needed.
 
+## Next Steps
+
+Click on `Save changes` button to save the changes. You can also continue to [action](action.md) configuration.
 
 
