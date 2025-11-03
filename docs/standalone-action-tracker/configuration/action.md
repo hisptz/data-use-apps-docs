@@ -56,7 +56,13 @@ You can add as many fields as needed.
 
 ## Action Tracking
 
-There are 2 areas of configuration for action tracking in the standalone action tracker:
+There are 3 areas of configuration for action tracking in the standalone action tracker:
+
+### Action Status Review Date
+
+This is the configuration for the mandatory date field for each of the action status update. The only configuration for
+this field is the label of the field. By default, the field is labelled as `Review Date`. You can rename the field to
+whatever fits your use case.
 
 ### Action Status Fields
 
