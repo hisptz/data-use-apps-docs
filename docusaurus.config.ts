@@ -22,7 +22,12 @@ const config: Config = {
 		organizationName: 'hisptz', // Usually your GitHub org/user name.
 		projectName: 'data-use-apps-docs', // Usually your repo name.
 		onBrokenLinks: 'throw',
-		onBrokenMarkdownLinks: 'warn',
+		markdown: {
+				hooks: {
+						onBrokenMarkdownLinks: "throw",
+						onBrokenMarkdownImages: "throw"
+				}
+		},
 		// Even if you don't use internationalization, you can use this field to set
 		// useful metadata like html lang. For example, if your site is Chinese, you
 		// may want to replace "en" with "zh-Hans".
@@ -47,7 +52,6 @@ const config: Config = {
 						} satisfies Preset.Options,
 				],
 		],
-
 		themeConfig: {
 				// Replace with your project's social card
 				image: 'img/hisptz-logo.png',
@@ -142,6 +146,9 @@ const config: Config = {
 				prism: {
 						theme: prismThemes.github,
 						darkTheme: prismThemes.dracula,
+				},
+				tableOfContents: {
+
 				},
 				colorMode: {
 						defaultMode: 'light',
