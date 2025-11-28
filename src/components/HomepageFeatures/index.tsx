@@ -15,6 +15,7 @@ const FeatureList: FeatureItem[] = [
 				icon: "img/logos/scorecard.png",
 				description: (
 						<>
+							The Scorecard application enables users to track, visualize, and review key performance indicators using color coding to highlight performance.
 						</>
 				),
 		},
@@ -23,6 +24,7 @@ const FeatureList: FeatureItem[] = [
 				icon: "img/logos/bna.png",
 				description: (
 						<>
+							Bottleneck Analysis (BNA) is a DHIS2 application that helps identify and determine the bottlenecks using the Tanahashi model & identify the root causes.
 						</>
 				),
 		},
@@ -31,6 +33,7 @@ const FeatureList: FeatureItem[] = [
 				icon: "img/logos/bna-action-tracker.png",
 				description: (
 						<>
+							The Action Tracker is a DHIS2 application that enables users to plan & track  activities/actions resulting from root cause analysis from the BNA app.
 						</>
 				),
 		},
